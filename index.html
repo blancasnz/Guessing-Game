@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title id='MainTitle'>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id='app' class='center container'>
+
+        <div id='headers'>
+
+            <h1 id='title'>Play The Guessing Game!</h1>
+            <h2 id='subtitle'>Guess a number from 1 - 100!</h2>
+        </div>
+
+        <div id='main'>
+            <div id='input-parent'>
+                <input id='player-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus>
+                <button id='submit' class="btn btn-success"> Guess! </button>
+            </div>
+
+            <div id='guesses'>
+                <ul id='guess-list'>
+                    <li class='guess'>-</li>
+                    <li class='guess'>-</li>
+                    <li class='guess'>-</li>
+                    <li class='guess'>-</li>
+                    <li class='guess'>-</li>
+                    <ul>
+            </div>
+
+            <div id="menu-btns">
+                <button id='reset' class="btn btn-warning">Reset</button>
+                <button id='hint' class="btn btn-info">Hint!</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+            <div class='col-sm-4'>
+                <img src='fa-logo@2x.png'></img>
+            </div>
+
+            <div class='col-sm-4'>
+                <h4>Project by Blanca Sanchez</h4>
+            </div>
+
+            <div class='col-sm-4'>
+                <img src='grace_hopper_academy.png'></img>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="GuessingGame.js"></script>
+
+</body>
+
+</html>
